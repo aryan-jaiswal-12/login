@@ -1,15 +1,18 @@
-import React from "react";  
+import React from "react";
 
 
-function Head(){
+function Head() {
     return (
         <div className="header">
-            <img src="https://iiitranchi.ac.in/images/logoXL.png"></img>
-            <div className="title">
-            <h2 className="blue">Indian Institute Of Information Technology, Ranchi</h2>
-            <h2>An Institution of National Importance under MoE, Govt. of India</h2>
+            <div className="header-img">
+                <img src="https://iiitranchi.ac.in/images/logoXL.png"></img>
             </div>
-            
+
+            <div className="title">
+                <h2 className="blue">Indian Institute Of Information Technology, Ranchi</h2>
+                <h2>An Institution of National Importance under MoE, Govt. of India</h2>
+            </div>
+
         </div>
     );
 }
